@@ -1,0 +1,15 @@
+[submodule "shared/proto/cosmos-sdk"]
+	path = shared/proto/cosmos-sdk
+	url = https://github.com/cosmos/cosmos-sdk.git
+[submodule "shared/proto/wasmd-src"]
+	path = shared/proto/wasmd-src
+	url = https://github.com/CosmWasm/wasmd.git
+[submodule "shared/proto/ibc-go-src"]
+	path = shared/proto/ibc-go-src
+	url = https://github.com/cosmos/ibc-go.git
+[submodule "shared/proto/interchain_security-src"]
+	path = shared/proto/interchain_security-src
+	url = https://github.com/cosmos/interchain-security.git
+[submodule "shared/proto/cosmos-proto-src"]
+	path = shared/proto/cosmos-proto-src
+	url = https://github.com/cosmos/cosmos-proto.git
