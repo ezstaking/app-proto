@@ -1,0 +1,40 @@
+# Common
+[submodule "shared-src/cosmos-sdk"]
+	path = shared-src/cosmos-sdk
+	url = https://github.com/cosmos/cosmos-sdk.git
+
+[submodule "shared-src/wasmd"]
+	path = shared-src/wasmd
+	url = https://github.com/CosmWasm/wasmd.git
+
+[submodule "shared-src/ibc-go"]
+	path = shared-src/ibc-go
+	url = https://github.com/cosmos/ibc-go.git
+
+[submodule "shared-src/cosmos-proto"]
+	path = shared-src/cosmos-proto
+	url = https://github.com/cosmos/cosmos-proto.git
+
+[submodule "shared-src/gogoproto"]
+	path = shared-src/gogoproto
+	url = https://github.com/cosmos/gogoproto.git
+
+# Cosmoshub
+[submodule "chains/cosmoshub/src/gaia"]
+	path = chains/cosmoshub/src/gaia
+	url = https://github.com/cosmos/gaia.git
+
+[submodule "chains/cosmoshub/src/interchain_security"]
+	path = chains/cosmoshub/src/interchain_security
+	url = https://github.com/cosmos/interchain-security.git
+
+# Akash
+[submodule "chains/akash/src/akash"]
+	path = chains/akash/src/akash
+	url = https://github.com/akash-network/node
+
+# Evmos
+[submodule "chains/evmos/src/evmos"]
+	path = chains/evmos/src/evmos
+	url = https://github.com/evmos/evmos.git
+

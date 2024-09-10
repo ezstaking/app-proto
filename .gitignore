@@ -1,0 +1,14 @@
+.idea
+node_modules
+
+shared/proto/gaia
+shared/proto/akash
+shared/proto/evmos
+
+shared/proto/cosmos-proto
+shared/proto/cosmos-sdk
+shared/proto/gogoproto
+shared/proto/ibc-go
+shared/proto/informalsystems_wasmd
+shared/proto/interchain_security
+shared/proto/wasmd

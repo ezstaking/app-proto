@@ -1,0 +1,24 @@
+{
+  "name": "cosmos-proto",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezstaking/app"
+  },
+  "scripts": {
+    "gco": "git submodule update --init --recursive",
+    "codegen": "./bin/codegen.sh"
+  },
+  "devDependencies": {
+    "@cosmology/telescope": "^1.8.3",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "@cosmjs/amino": "^0.32.4",
+    "@cosmjs/proto-signing": "^0.32.4",
+    "@cosmjs/stargate": "^0.32.4",
+    "@cosmjs/tendermint-rpc": "^0.32.4",
+    "@cosmology/lcd": "^0.13.4"
+  }
+}
