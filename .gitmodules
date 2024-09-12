@@ -56,3 +56,6 @@
 [submodule "chains/archway/src/archway"]
 	path = chains/archway/src/archway
 	url = https://github.com/archway-network/archway.git
+[submodule "chains/assetmantle/src/assetmantle"]
+	path = chains/assetmantle/src/assetmantle
+	url = https://github.com/AssetMantle/node.git
