@@ -38,3 +38,15 @@
 	path = chains/evmos/src/evmos
 	url = https://github.com/evmos/evmos.git
 
+# Gravity Bridge
+[submodule "chains/gravitybridge/src/gravitybridge"]
+	path = chains/gravitybridge/src/gravitybridge
+	url = https://github.com/Gravity-Bridge/Gravity-Bridge.git
+
+[submodule "chains/gravitybridge/src/bech32-ibc"]
+	path = chains/gravitybridge/src/bech32-ibc
+	url = https://github.com/althea-net/bech32-ibc
+
+[submodule "chains/gravitybridge/src/ethermint"]
+	path = chains/gravitybridge/src/ethermint
+	url = https://github.com/althea-net/ethermint
