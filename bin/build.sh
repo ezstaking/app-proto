@@ -8,7 +8,7 @@ PACKAGES=${@:2}
 echo "👉 Convert proto ${NETWORK}"
 
 # Clean
-./bin/proto_clean.sh ${TS_OUTPUT_DIR}
+./bin/clean.sh ${NETWORK}
 
 # Checkout
 ./chains/${NETWORK}/bin/checkout.sh
@@ -16,8 +16,8 @@ echo "👉 Convert proto ${NETWORK}"
 # Export
 ./bin/proto_export.sh ${PROTO_OUTPUT_DIR} "${PACKAGES[@]}"
 
-# Build
-./chains/${NETWORK}/bin/proto_build.mjs
+# Proto to TypeScript
+./chains/${NETWORK}/bin/proto_to_ts.mjs
 
 # Format
 ./bin/ts_format.sh ${TS_OUTPUT_DIR}
