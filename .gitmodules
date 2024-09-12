@@ -50,3 +50,9 @@
 [submodule "chains/gravitybridge/src/ethermint"]
 	path = chains/gravitybridge/src/ethermint
 	url = https://github.com/althea-net/ethermint
+[submodule "chains/archway/src/wasmd"]
+	path = chains/archway/src/wasmd
+	url = https://github.com/archway-network/archway-wasmd
+[submodule "chains/archway/src/archway"]
+	path = chains/archway/src/archway
+	url = https://github.com/archway-network/archway.git
