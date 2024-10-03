@@ -13,10 +13,10 @@ export const protoBuild = (protoDirs, network) => {
     logLevel: 0,
     useSDKTypes: false,
     tsDisable: {
-      disableAll: false,
+      disableAll: true,
     },
     eslintDisable: {
-      disableAll: false,
+      disableAll: true,
     },
     bundle: {
       enabled: false,
