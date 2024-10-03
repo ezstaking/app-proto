@@ -16,13 +16,13 @@ export const protoBuild = (protoDirs, network) => {
       disableAll: false,
     },
     eslintDisable: {
-      disableAll: true,
+      disableAll: false,
     },
     bundle: {
-      enabled: true,
+      enabled: false,
     },
     interfaces: {
-      enabled: false,
+      enabled: true,
     },
     prototypes: {
       includePackageVar: true,
@@ -92,8 +92,8 @@ export const protoBuild = (protoDirs, network) => {
       enabledServices: ["Msg", "Query", "Service", "ReflectionService", "ABCIApplication"],
     },
     aminoEncoding: {
-      enabled: false,
-      useLegacyInlineEncoding: true,
+      enabled: true,
+      useLegacyInlineEncoding: false,
     },
   };
   const builderParams = {protoDirs, outPath, options}
